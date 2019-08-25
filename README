@@ -1,3 +1,29 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                EZDFFTPACK V1.0                                
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A collection of wrappers by Jason L. Turner for DFFTPACK V1.0. DFFTPACK itself,
+created by Hugh C. Pumphrey, is a double precision clone of FFTPACK V4 by Paul
+N. Swarztrauber. DFFTPACK and FFTPACK are both available at
+
+    https://www.netlib.org/fftpack/
+
+This repository contains a complete copy of the FORTRAN sources of DFFTPACK, as
+well as
+
+(*) A Makefile which I have modified to work on some modern Linux and Windows
+machines using the compiler gfortran (updated from g77).
+
+(*) A file doc which was supplied with DFFTPACK and has been reformatted and
+altered to reflect the additional subroutines.
+
+(*) A file doc.ez which details the additional files I have added.
+
+The original FFTPACK and DFFTPACK were public domain, so EZDFFTPACK is also
+public domain. It is released in the hope that it will be useful, although
+there is no warranty of any sort covering this software.
+
+Below are the contents of this file included with DFFTPACK:
+
                         DFFTPACK V1.0
 *****************************************************************
         A Double precision clone by Hugh C. Pumphrey  of:
